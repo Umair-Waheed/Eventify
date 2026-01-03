@@ -42,7 +42,7 @@ function renderEvents(events){
 
         eventCard.innerHTML=`
         <h3>${event.name}</h3>
-        <div clas="event-meta-data">
+        <div class="event-meta-data">
             ${event.date} <br/>
             ${event.location}
         </div>
@@ -67,4 +67,5 @@ searchInput.addEventListener("input",(e)=>{
 })
 
     // tihs is all events 
+
 renderEvents(events);
